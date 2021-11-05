@@ -4,49 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cheatsheet</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+
+    function init(){
+        console.log("Hello");
+
+        let titel = document.getElementById('titel');
+        console.log(titel);
+    }
+        function changeBG(){
+            console.log("Je hebt geklikt!");
+        }
+    </script>
+
 </head>
 <body>
-    <h1>Dit is mijn cheatSheet..</h1>
-    <ul>
-        <li>Cheatsheet                                                                                                                                 Ali Celiksu
-
-            Onderzoeksvraag:
-            Hoe zet je vanuit een lege map een repository op Github? 
-            
-            De stappen:
-            
-            <ul> 1: Git status: zo laat je de status van je git zien.</ul>
-            
-            <ul> 2: Git init: zo begin je een nieuw git repository. </ul>
-            
-            <ul> 3: git add . : dan word alles in 1x toegevoedg. </ul>
-            
-            <ul> 4: Git log: zo zie je alle veranderingen. </ul>
-            
-            <ul> 4: Git --oneline: Alles word hiermee op 1 lijn gezet. </ul>
-            
-            <ul> 5: Git push: dan push je het naar Github toe. </ul>
-            
-            <ul> 6: Git pull: Dan haal je de veranderingen op. </ul>
-
-            </li>
 
 
-    </ul>
 
-    <h2>cmd</h2>
-    <ul>
-        <li> cd: change directory</li>
-        <li> mkdir: maak een nieuwe directory</li>
-        <li> cd .. : dan ga je 1 stap omhoog</li>
-        <li>cd ../ : dan ga je meerdere stappen omhoog</li>
-        <li>%USERPROFILE% : dan ga je naar je main directory</li>
+    
+    <h1 id="titel">CSS Class</h1>
 
+    <div class="kopje2">
+        <h4>Informatie</h4>
+        <p>Ali Celiksu SD1D</p>
+    </div>   
+
+    
+    <div class="cheat" onlcick="changeBG()"document.body.style.backgroundColor: blue;>
+        <h2>Git</h2>
+        <p>init: start a new repository</p>
+        <p>add .: add files</p>
+    </div>
+
+    <div class="cheatred">
+        <h2>Commandline [cmd]</h2>
+        <p>cd: change directory</p>
+        <p>dir: geeft de inhoud van de dir</p>
+    </div>
         
-    </ul>
-    <h2></h2> 
-    <ul></ul>
+    <div class="h6">
+        <h6>Vrije box-1</h6>
+    
+        </div>
+
+
+<div class="h5">
+    <h5>Vrije box-2</h5>
+</div>
+
+ 
+
+
+
+
 
 </body>
 </html>
