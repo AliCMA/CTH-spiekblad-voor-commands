@@ -1,0 +1,56 @@
+body{
+    background-color: gold;
+    color: white;
+}
+
+.cheat{
+    border: black 5px solid;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.cheatred{
+    border:black 5px solid;
+    color:white;
+    padding: 20px;
+    margin: 20px;
+    background-color: blue;
+}
+
+h3{
+    border:black 5px solid;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    background-color: blue;
+}
+
+
+.kopje2{
+    border:black 5px solid;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    background-color: blue;
+
+}
+
+.h5{
+    border:black 5px solid;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    background-color: blue;
+}
+
+
+.h6{
+    border:black 5px solid;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    background-color: blue;
+}
